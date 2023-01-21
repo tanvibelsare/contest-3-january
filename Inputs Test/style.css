@@ -1,0 +1,56 @@
+
+.container{
+ display: flex;
+}
+.left{
+    
+    height:620px;
+    width:620px;
+    padding-left: 50px;
+}
+.right{
+    height:620px;
+    width:620px;
+}
+
+.right button{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.right .toggle-btn{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+.toggle-btn::before{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: black ;
+    border-radius: 50%;
+
+}
+input[type="text"]{
+    margin-bottom: 20px;
+    width:400px
+}
+select{
+    margin-bottom: 20px;
+    width:400px
+}
+button{
+    margin-bottom: 20px;
+    width:400px
+}
+input[type="radio"]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
